@@ -2,7 +2,7 @@
 
 ## Installation guide
 
-- Download [com0com](Windows\com0com-2.2.2.0-x64-fre-signed\setup.exe) 2.2.2.0 and install the virtual COM driver
+- Download [com0com](https://github.com/OpenCorsa/os-serial-sniffer/raw/main/Windows/com0com-2.2.2.0-x64-fre-signed/setup.exe) 2.2.2.0 and install the virtual COM driver
 - Open program called Setup in com0com installation directory (should be in `C:\Program Files (x86)\com0com`)
 - Apply settings: 
   - Remove existing virtual port pair

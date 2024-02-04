@@ -4,15 +4,15 @@ Long story short - this project aims to provide an easy (or at least well docume
 
 ## Table of content
 - [Concept](#concept)
-- [Supported OS](#os)
-    - [Windows](Windows/readme.md)
+- [Supported OS](#supported-os)
+    - [Windows](Windows/README.md)
     - Linux - planned, 2nd priority
     - Mac OS - planned, 1st priority
 - [TODOs](#todos)
 - [Credits](#credits)
 
 
-## Basics
+## Concept
 In order to fully capture traffic both ways we need to have one real COM port that we want to sniff and 2 virtual ones since serial port can be used only by one program at the same time. The idea is to sniff incomming traffic from real COM and pass it through to one of virtual ones and do the same thing in reverse (sniff from virtual COM and pass it to real one). Communication between VCOM1 and VCOM2 is handled internally at a driver level.
 
 Flow diagram taken from [SerialSniffer](https://github.com/fjovine/SerialSniffer):
@@ -21,7 +21,7 @@ Flow diagram taken from [SerialSniffer](https://github.com/fjovine/SerialSniffer
 ## Supported OS:
 | Platform                       | Support | Tested on                           |
 | ------------------------------ | ------- | ----------------------------------- |
-| [Windows](Windows/readme.md)  | ✅     | Windows 11 / AMD 3900X              |
+| [Windows](Windows/README.md)  | ✅     | Windows 11 / AMD 3900X              |
 | Linux                         | ❌     | Ubuntu 22.04 / VM on Win above      |
 | Mac OS                        | ❌     | macOS 14 (ARM) / Mac 14 Pro with M2 |
 
